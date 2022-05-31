@@ -1,0 +1,17 @@
+- git init   # 버전관리 시작
+- git config --global user.name '이름'   # config에 이름 지정
+- git config --global user.email '이메일'   # config에 이메일 지정
+
+- git remote add origin http://github.com/"user_id"/"repository_name"   # github와 연동
+- git config --list   # config 확인
+
+- git status  # 현재 상태 확인
+- git remote -v   # 연결된 원격 repository
+- git add .  # 모든 파일 upload
+- git commit -m "first_commit"   # 모든 파일 commit 
+- git push origin master   # push
+- push 완료후 github에서 추가된 파일확인
+
+- git branch v1   # v1 branch 생성
+- git branch   # branch 목록 확인 
+- git checkout v1   # v1 branch 로 이동 master -> v1
