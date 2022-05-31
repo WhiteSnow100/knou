@@ -15,3 +15,9 @@
 - git branch v1   # v1 branch 생성
 - git branch   # branch 목록 확인 
 - git checkout v1   # v1 branch 로 이동 master -> v1
+
+- echo "# knou " >> README.md
+- git add README.md 
+- git commit -m " first commit"
+- git branch -M main
+- git push -u origin main
